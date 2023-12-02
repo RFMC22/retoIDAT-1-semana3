@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Primer Reto</title>
+</head>
+<body>
+
+  <main>
+    <h1>Checkout</h1>
+    <form action="">
+      <label for="payment-method">Payment Method</label>
+      <select name="payment-method" id="payment-method">
+        <option value="visa">Visa Ending in 4566</option>
+        <option value="american">American Express Ending in 9122</option>
+        <option value="discover">Discover Ending in 9865</option>
+      </select>
+      <fieldset>
+        <legend>Shipping Method</legend>
+        <div>
+          <input type="radio" name="freeTwo" value="freeTwo">
+          <label for="freeTwo">FREE - 2 Day Shipping</label>
+        </div>
+        <div>
+          <input type="radio" name="standard" value="standard">
+          <label for="standard">Standard Shipping (4 -5 Business Days)</label>
+        </div>
+        <div>
+          <input type="radio" name="freeRush" value="freeRush">
+          <label for="freeRush">FREE - No Rush Shipping (5 Business Days)</label>
+        </div>
+      </fieldset>
+      <div>
+        <label for="gift">This is a giff</label>
+        <input type="checkbox" name="gift" id="gift">
+      </div>
+      <input type="submit" value="Place Your Order">
+    </form>
+  </main>
+</body>
+</html>
